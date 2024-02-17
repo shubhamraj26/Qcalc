@@ -13,9 +13,9 @@ public class QcalcApplication {
 
         // calc.printResult();
         LogicCalculator calc = new LogicCalculator();
-        StandardCalculator sd=new StandardCalculator();
+//        StandardCalculator sd=new StandardCalculator();
 //        System.out.println();
-        calc.getVersion();
+        LogicCalculator.getVersion();
 
         calc.AND(5, 7);
 
